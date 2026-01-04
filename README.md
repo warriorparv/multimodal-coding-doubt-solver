@@ -33,4 +33,17 @@ export OPENROUTER_API_KEY="your_api_key"
 3.Run the app
 streamlit run app.py
 
+## Screenshots
+
+### Home Screen
+![Home Screen](assets/ui.png)
+
+### Image Upload
+![Image Upload](assets/image_upload.png)
+
+### Chatbot Response
+![Chatbot Response](assets/response.png)
+
+[View Project on GitHub](https://github.com/warriorparv/multimodal-coding-doubt-solver)
+
 
