@@ -1,8 +1,9 @@
 import os
+from dotenv import load_dotenv
 import streamlit as st
 import requests
 import base64
-
+load_dotenv()
 # ---------------- CONFIG ----------------
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 API_KEY = os.getenv("OPENROUTER_API_KEY")
@@ -73,8 +74,6 @@ if st.button("Ask Chatbot"):
             st.markdown(answer)
         except Exception as e:
             st.error(f"❌ Error: {e}")
-
-
 
 
 

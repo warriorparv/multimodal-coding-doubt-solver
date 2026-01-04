@@ -1,6 +1,6 @@
 # Multimodal Coding Doubt Solver 🤖
 
-This project is a Streamlit-based multimodal chatbot that solves coding problems using both text and image inputs. It leverages OpenRouter API and a vision-capable large language model to analyze problems and generate optimized solutions.
+This project is a Streamlit-based multimodal chatbot that solves coding problems using both text and image inputs. It uses OpenRouter API and a vision-capable large language model to analyze problems and generate optimized solutions.
 
 ## Features
 - Accepts text-based coding questions
