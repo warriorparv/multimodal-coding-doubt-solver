@@ -6,7 +6,7 @@ import base64
 load_dotenv()
 # ---------------- CONFIG ----------------
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = os.getenv("OPENROUTER_API_KEY")
+API_KEY = os.getenv("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")
 
 if not API_KEY:
     st.error("❌ OPENROUTER_API_KEY not found.")
